@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>シューティングゲーム</title>
+  <link href="style/style.css" rel="stylesheet" type="text/css" media="print" onload="this.media='all'" />
+  <!--   <link rel="manifest" href="manifest.json"> -->
+</head>
+
+<body oncontextmenu="return false;">
+  <header>
+    <h1>シューティングゲーム</h1>
+  </header>
+  <main>
+    <canvas id="canvas" width="1920" height="1080">キャンバス非対応ブラウザです。
+      <a target="_target">chrome</a>
+      で開いてください。
+    </canvas>
+    <div id="loading_message">読み込み中です。しばらくお待ち下さい。</div>
+    <div class="help">
+      <h2>このゲームの使用の仕方</h2>
+      <p>ゲームをスタートしたら、枠内をクリックすることで玉を発射できます。それを的に当てて得点をゲットしましょう</p>
+      <h2>2人で同時に遊べないの？</h2>
+      <p>このゲームはプレーヤー1が左クリックもしくは1本指でタップ、プレーヤー2が右クリックもしくは2本指でタップすることで2人まで同時に遊べます。</p>
+    </div>
+  </main>
+  <script src="script/game.js" defer></script>
+  <script src="script/stage0.js" defer></script>
+  <script src="script/stage1.js" defer></script>
+  <script src="script/stage2.js" defer></script>
+  <script src="script/stage3.js" defer></script>
+  <script src="script/stage4.js" defer></script>
+  <script src="script/stage5.js" defer></script>
+  <script src="script/stage6.js" defer></script>
+  <script src="script/script.js" defer></script>
+</body>
+
+</html>

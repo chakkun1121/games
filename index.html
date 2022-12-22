@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>web tootls/games</title>
+  <link href="../reset.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <header>
+    <h1><a href="../">webアプリ</a> / games</h1>
+  </header>
+  <div class="main">
+    <div class="games">
+      <!--<div class="game">
+        <a href="block/" target="_blank" rel="noopener noreferrer">
+          <img src="" alt=" ブロック崩し">
+          <p>ブロック崩し</p>
+        </a>
+      </div>-->
+      <div class="game">
+        <a href="typing/" target="_blank" rel="noopener noreferrer">
+          <img src="" alt="タイピングゲーム">
+          <p>タイピングゲーム(まあまあ雑ですが、お許しください。)</p>
+        </a>
+      </div>
+      <div class="game">
+        <a href="train/" target="_blank" rel="noopener noreferrer">
+          <img src="../img/img game train2.webp" alt="トレインシュミレーター">
+          <p>トレインシュミレーター</p>
+        </a>
+      </div>
+      <div class="game">
+        <a href="shooting/" target="_blank" rel="noopener noreferrer">
+          <img src="../img/img game shooting.webp" alt="シューティングゲーム">
+          <p>シューティングゲーム(絶賛開発中)</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-links">
+      <p>サポートブラウザ->windows10+<a href="https://google.com/chrome" target="_target">chrome最新版</a>もしくは、chromebook+chrome最新版
+      </p>
+
+      <ul>
+        <li><a>お知らせ</a></li>
+        <li><a>設定</a></li>
+        <li><a href="https://my-site.chakkun1121haru.repl.co/" target="_target">my-siteへ</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').then(function (registration) {
+        // 登録成功
+        console.log('ServiceWorker の登録に成功しました。スコープ: ', registration.scope);
+      }).catch(function (err) {
+        // 登録失敗
+        console.log('ServiceWorker の登録に失敗しました。', err);
+      });
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "web gemes",
+  "short_name": "web tools",
+  "icons": [
+    {
+      "src": "../icon.png",
+      "sizes": "195x195",
+      "type": "image/png"
+    },{
+      "src":"../web-tools-512.webp",
+      "sizes":"512x512",
+      "type":"image/webp"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
